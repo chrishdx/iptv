@@ -12,11 +12,13 @@
 
 [4] apt-get install mysql-server-5.6 -y  
 
+Das vergebene Kennwort gut aufheben, wird bei der Installation wieder gebraucht.
+
 [5] service mysql start
 
 [6] update-rc.d -f mysql defaults
 
-Das vergebene Kennwort gut aufheben, wird bei der Installation wieder gebraucht.
+
 
 [7] wget https://raw.githubusercontent.com/chrishdx/iptv/master/install.sh && chmod a+x install.sh && ./install.sh
 
