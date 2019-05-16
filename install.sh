@@ -2,7 +2,7 @@ apt-get install software-properties-common -y && add-apt-repository ppa:ondrej/p
 apt-get install lsb-release nscd curl php5.6 php5.6-mysql php5.6-cli php5.6-curl unzip -y && apt-get install php5.6-mcrypt -y &&  phpenmod mcrypt
 service apache2 restart
 service mysql start
-wget https://sourceforge.net/projects/iptv1604/files/www_dir.tar.gz -O /tmp/www_dir.tar.gz
+wget https://www.dropbox.com/s/hysh4j47rc8dzna/www_dir.tar.gz -O /tmp/www_dir.tar.gz
 #
 if [ -d /var/www/html ];
 then
